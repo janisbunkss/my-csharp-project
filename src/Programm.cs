@@ -1,14 +1,16 @@
 using System;
 
-namespace MyProject
+namespace MyCSharpProject
 {
     class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the Dungeon Game!");
-            // Add your game logic here
-            
+
+            Game game = new Game();  // Create an instance of Game
+            game.Start();  // Start the game loop
         }
     }
 }
+
