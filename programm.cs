@@ -1,13 +1,13 @@
 using System;
 
-namespace MyCSharpProject
+namespace MyProject
 {
-    internal class Program
+    class Program
     {
-        static void Main()
+        static void Main(string[] args)
         {
-            Game game = new Game();  // Creates an instance of Game
-            game.Start();  // Starts the game loop
+            Console.WriteLine("Welcome to the Dungeon Game!");
+            // Add your game logic here
         }
     }
 }
