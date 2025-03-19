@@ -14,3 +14,8 @@ obj/
 
 # VS Code settings
 .vscode/
+
+// filepath: /home/janis/_repo/my-csharp-project/.gitignore
+# Build artifacts
+bin/
+obj/
