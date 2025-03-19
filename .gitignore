@@ -1,0 +1,16 @@
+// filepath: /home/janis/_repo/my-csharp-project/.gitignore
+# Build artifacts
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# VS Code settings
+.vscode/
